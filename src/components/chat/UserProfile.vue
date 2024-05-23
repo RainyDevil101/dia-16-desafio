@@ -26,6 +26,7 @@ const setEmail = () => {
     text: text.value,
     userName: name.first + ' ' + name.last,
   });
+  text.value = '';
 }
 
 const changeColor = (event: Event) => {
